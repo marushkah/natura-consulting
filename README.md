@@ -12,7 +12,7 @@ The page's `<head>` assumes the site will live at `https://natura.consulting/`. 
 ## Before launch
 1. Confirm the offers and prices in the "Offers and prices" section.
 2. If you change a price, change the nonprofit price under it too. It is the price minus 20%.
-3. Confirm the name. The logo says "Natura" with "Creative consulting" underneath.
+3. The logo says "Natura" with "AI and strategy consulting" underneath.
 4. Make sure `info@natura.consulting` still receives mail, or replace it in `index.html`.
 5. Add two or three client testimonials when you have permission to quote them. Place them between the offers and the booking section.
 6. After December 2026, change "MBA, December 2026" to "MBA '26" in the About section.
