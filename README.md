@@ -24,7 +24,7 @@ To change it, search for that address in `index.html` and `404.html` and replace
 
 ## Publish on GitHub Pages
 1. Create a new public repository on GitHub, for example `natura-consulting`.
-2. Upload the contents of this folder (`index.html`, `404.html`, `assets/`, `robots.txt`, `sitemap.xml`, `README.md`, `.nojekyll`).
+2. Upload the contents of this folder (`index.html`, `404.html`, `assets/`, `robots.txt`, `sitemap.xml`, `CNAME`, `README.md`, `.nojekyll`).
 3. In the repo: **Settings → Pages → Build and deployment → Source: Deploy from a branch**, branch `main`, folder `/ (root)`. Save.
 4. After about a minute the site is live at `https://<your-github-username>.github.io/natura-consulting/`.
 
