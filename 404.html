@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Page not found · Natura</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,400..800,0..100,0..1;1,9..144,400..800,0..100,0..1&family=Inter+Tight:wght@400;500;600;700&display=swap">
+<style>
+  /* Self-contained so it looks right at any address. Colours match assets/site.css. */
+  :root { --mist: #F0EEFC; --ink: #1B1B4B; --muted: #4C4F7A; --purple: #6D3FD1; --green: #7CE8B5; color-scheme: light; }
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100vh; min-height: 100svh; display: grid; place-items: center; background: var(--mist); color: var(--ink); font-family: "Inter Tight", system-ui, sans-serif; font-size: 17px; line-height: 1.6; padding: 32px max(16px, env(safe-area-inset-right, 0px)) 32px max(16px, env(safe-area-inset-left, 0px)); overflow: hidden; }
+  main { position: relative; text-align: center; max-width: 560px; }
+  .brand { font-family: "Fraunces", Georgia, serif; font-style: italic; font-weight: 700; font-size: 28px; font-variation-settings: "SOFT" 100, "WONK" 1; text-decoration: none; color: inherit; }
+  .code { display: inline-block; margin: 28px 0 18px; font-size: 11.5px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; background: var(--green); border: 1.5px solid var(--ink); border-radius: 999px; padding: 5px 13px; transform: rotate(-1.5deg); }
+  h1 { font-family: "Fraunces", Georgia, serif; font-weight: 600; font-variation-settings: "SOFT" 100, "WONK" 1; letter-spacing: -.015em; font-size: clamp(2.4rem, 8vw, 4rem); line-height: 1; margin: 0 0 18px; text-wrap: balance; }
+  h1 span { background: linear-gradient(transparent 56%, var(--green) 56% 92%, transparent 92%); padding-inline: .06em; }
+  p { color: var(--muted); margin: 0 0 30px; }
+  .actions { display: flex; flex-wrap: wrap; gap: 14px; justify-content: center; }
+  .btn { display: inline-flex; font-size: 14.5px; font-weight: 700; padding: 14px 24px; border-radius: 999px; text-decoration: none; color: var(--ink); border: 1.5px solid var(--ink); box-shadow: 3px 3px 0 var(--ink); background: #FDFDFF; transition: transform .15s, box-shadow .15s; }
+  .btn:hover { transform: translate(-2px, -2px); box-shadow: 5px 5px 0 var(--ink); }
+  .btn-solid { background: var(--green); }
+  :focus-visible { outline: 3px solid var(--purple); outline-offset: 3px; }
+  svg.wave { position: fixed; left: 0; right: 0; bottom: 8vh; width: 100%; height: 120px; z-index: -1; }
+  svg.wave path { fill: none; stroke-width: 2.5; stroke-linecap: round; }
+  @media (prefers-reduced-motion: reduce) { .btn { transition: none; } }
+</style>
+</head>
+<body>
+<main>
+  <a class="brand" href="/">Natura</a><br>
+  <span class="code">Page not found</span>
+  <h1>This page drifted <span>out to sea.</span></h1>
+  <p>The link may be old, or the page may have moved. The home page has everything, including offers and prices.</p>
+  <div class="actions">
+    <a class="btn btn-solid" href="/">Back to the home page</a>
+    <a class="btn" href="https://calendly.com/natura-info/30min">Book a free call</a>
+  </div>
+</main>
+<svg class="wave" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+  <path stroke="rgba(109,63,209,.45)" d="M0 30C240 6 480 6 720 30S1200 54 1440 30"/>
+  <path stroke="rgba(24,160,105,.55)" d="M0 62C240 86 480 86 720 62S1200 38 1440 62"/>
+  <path stroke="rgba(31,95,208,.45)" d="M0 94C240 70 480 70 720 94S1200 118 1440 94"/>
+</svg>
+</body>
+</html>
