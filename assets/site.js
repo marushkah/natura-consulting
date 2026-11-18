@@ -142,7 +142,7 @@
       waves.forEach(function (w) { if (onScreen(w.c)) drawWaves(w, t); });
       blobs.forEach(function (b) { if (onScreen(b.el)) drawBlob(b, t); });
       marquees.forEach(function (m) {
-        if (m.half) m.el.style.transform = 'translate3d(' + (-((window.scrollY * 0.45 + t * 0.03) % m.half)).toFixed(1) + 'px,0,0)';
+        if (m.half) m.el.style.transform = 'translate3d(' + (-((window.scrollY * 0.2 + t * 0.018) % m.half)).toFixed(1) + 'px,0,0)';
       });
     };
     requestAnimationFrame(loop);
@@ -192,8 +192,8 @@
           line.words.forEach(function (w, k) {
             var a = clamp((local - (k / count) * 0.6) / 0.16);
             w.style.opacity = a.toFixed(3);
-            w.style.filter = a < 1 ? 'blur(' + ((1 - a) * 8).toFixed(2) + 'px)' : 'none';
-            w.style.transform = a < 1 ? 'translateY(' + ((1 - a) * 0.3).toFixed(3) + 'em) rotate(' + ((1 - a) * 5).toFixed(2) + 'deg)' : 'none';
+            w.style.filter = a < 1 ? 'blur(' + ((1 - a) * 5).toFixed(2) + 'px)' : 'none';
+            w.style.transform = a < 1 ? 'translateY(' + ((1 - a) * 0.25).toFixed(3) + 'em)' : 'none';
           });
         });
         if (tide) tide.style.strokeDashoffset = String(700 * (1 - p));
