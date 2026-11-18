@@ -368,7 +368,8 @@ footer.site .wrap { display: grid; gap: 32px; }
 @media (min-width: 760px) { .next-step { grid-template-columns: 1fr auto; } }
 .next-text h4 { font-size: clamp(1.5rem, 2.8vw, 2rem); line-height: 1.08; margin-bottom: 8px; }
 .next-text p:not(.label) { color: var(--on-night-muted); margin: 0; max-width: 56ch; }
-.next-buy { display: flex; align-items: center; gap: 20px; }
+.next-buy { display: flex; flex-wrap: wrap; align-items: center; gap: 16px 20px; }
+.next-buy .btn { white-space: nowrap; }
 .next-step .price { color: var(--on-night); font-size: 2rem; }
 .next-step .np { color: var(--green); }
 
